@@ -1,0 +1,25 @@
+{
+  "name": "Elementos quimicos", //Nombre de tu app
+  "version": "0.0.1", //version de tu app
+  "manifest_version": 2, //version del archivo manifest
+  "description": "Aprende todo sobre los elementos quimicos de una forma interactiva",
+  "icons": { //Iconos que apareceran en el admin de extensiones "chrome://extensions/"
+    "16": "src/image/logo.png",
+    "128": "src/image/logo.png"
+  },
+  "browser_action": {
+    "default_icon": { //Iconos que apareceran al lado de la barra de navegacion
+      "19": "src/image/logo.png",
+      "38": "src/image/logo.png"
+    },
+    "default_title": "Elementos quimicos",
+    "default_popup": "index.html" //Archivo que se mostrara al dar click en el icono del navegador
+  },
+  "omnibox": {
+    "keyword": "Quimica" //Palabras claves
+  },
+  "permissions": [ //Se agregan los permisos (cookies, history, downloads, management) para poder acceder a ciertos datos o acciones
+    "http://*/*",
+    "https://*/*"
+  ]
+}

@@ -1,0 +1,45 @@
+body{
+	display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+button {
+    padding: 5px 50px;
+    font-size: 1.1em;
+}
+#box-game{
+	min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+#box-elemento{
+	display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+#box-simbolo{
+    border: solid 2px;
+    box-shadow: 0px 0px 2px #000;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+}
+#box-controles{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#val-n-atomico{
+    margin: 15px 25px 0px 0px;
+    text-align: right;
+}
+#elemento-simbolo{
+    margin: 0px;
+}
+#elemento-nombre{
+    font-size: 1em;
+}
